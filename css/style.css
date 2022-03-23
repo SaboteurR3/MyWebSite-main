@@ -1,0 +1,1434 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    animation: transitionIn 0.75s;
+}
+.font
+{
+    font-family: 'Dancing Script';
+    font-style: italic;
+}
+.font2
+{
+    font-family: 'Dancing Script';
+    font-style: italic;
+    font-size: 16px;
+}
+.myfont
+{
+    font-family: 'ALK Rex Bold';
+}
+@keyframes transitionIn
+{
+    from
+    {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to 
+    {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+nav
+{
+    background:rgba(0,0,0,0.8);
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+nav ul
+{
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+    position: relative;
+}
+nav ul li
+{  
+    display: inline-block;
+    margin:auto 0 5px;
+}
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 17px;
+    padding: 5px 15px;
+}
+nav ul ul
+{
+    position: relative;
+    margin: 0px;
+    width: 150px;
+}
+nav ul ul li
+{
+    position: relative;
+    margin: 0px;
+    width: 150px;
+    float: none;
+    display: list-item;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+nav ul li a:hover
+{
+    color: #20ac4f;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #20ac4f;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.logo2
+{
+    width: 50px;
+    background-image: url(img/877655.png);
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+.logo2:hover
+{
+    filter: grayscale(0%);
+    transition-duration: 0.55s;
+    transition-property: all;
+}
+.logo
+{
+    display: inline-block;
+    margin: 13px 0px 15px 30px;
+}
+.menubar
+{
+    float: right;
+    margin-top: 7px;
+}
+.secondNav
+{
+    display: none;
+}
+/* End of navigation */
+.slideshow-container
+{
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+.mySlides
+{
+    display: none;
+}
+.imageSlider
+{
+    width: 100%;
+}
+.prev, .next
+{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next
+{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover
+{
+    background-color: rgba(0,0,0,0.8);
+}
+.text
+{
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.dot
+{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover
+{
+    background-color: #717171;
+}
+.fade
+{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.3s;
+    animation-name: fade;
+    animation-duration: 1.3s;
+}
+@-webkit-keyframes fade
+{
+    from {opacity: .7}
+    to {opacity: 1}
+}
+@keyframes fade
+{
+    from {opacity: .7}
+    to {opacity: 1}
+}
+.carousel-caption
+{
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+.Nocolor
+{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+h5
+{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+.carousel-caption > p
+{
+    margin-top: 2%;
+    margin-bottom: 1rem;
+}
+.font
+{
+    font-family: 'Dancing Script';
+    font-style: italic;
+    font-size: 20px;
+}
+.js
+{
+    text-align: center;
+}
+.hidendiv
+{
+    display: none;
+}
+/* End of Home */
+#winterResorts
+{
+    width: 83%;
+    margin: 0 auto;
+    box-shadow: 0px, 18px, 22px, -15px rgba(85, 83, 83, 0.3);
+}
+.inerbox
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.firstFont
+{
+    margin: 50px 0px 10px 0px;
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    font-style: italic;
+}
+.divider
+{
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 30px;   
+}
+.imgsec
+{
+    width: 250px;
+    background-image: url(img/877655.png);
+    filter: grayscale(100%);
+    z-index: 1;
+}
+.imgsec:hover
+{
+    filter: grayscale(0%);
+    transition-duration: 0.55s;
+    transition-property: all;
+}
+.mainDiv
+{
+    height: 950px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 48.5% 48.5%;
+    row-gap: 3%;
+    column-gap: 0.5%;
+    box-shadow: 10px 10px 4px grey;
+    border-radius: 5px;
+    padding: 2% 1% 0px 1%;
+}
+.winter1
+{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 4px;
+}
+.card
+{
+    width: 100%;
+    height: 250px;
+}
+.card-title
+{
+    margin-top: 3px;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+.card-text
+{
+    padding: 6px 6px 0 6px;
+    text-align: center;
+    margin-top: 8px;
+    font-family: 'Dancing Script';
+    overflow: hidden;
+}
+.winter2
+{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 4px;
+}
+.winter3
+{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 4px;
+}
+.card-title2
+{
+    margin-top: 12px;
+    text-align: center;
+    font-size: 20px;   
+    font-style: italic;
+}
+.winter4
+{
+    border-radius: 4px;
+}
+.winter5
+{
+    border-radius: 4px;
+}
+.winter6
+{
+    border-radius: 4px;
+}
+/* End of WinterResorts */
+.firstFont
+{
+    margin: 50px 0px 10px 0px;
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    font-style: italic;
+}
+.divider
+{
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    box-shadow: 0px, 18px, 22px, -15px rgba(85, 83, 83, 0.3);
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 43px;   
+}
+#summerResorts
+{
+    margin-top: 100px;
+    width: 70%;
+    margin: 0 auto;   
+    height: 1500px;
+}
+.card-text2
+{   
+    padding: 6px 6px 0 6px;
+    text-align: center;
+    margin-top: 8px;
+    font-family: 'Dancing Script';
+    overflow: hidden;
+    font-size: 17.5px;
+}
+.summerResort
+{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    column-gap: 1%;
+    row-gap: 1%;
+    box-shadow: -15px 15px 20px grey;
+    border-radius: 10px;
+}
+.upperDiv
+{
+    padding-top: 17%;
+    padding-left: 2%;
+}
+.card2
+{
+    width: 100%;
+    height: 330px;
+}
+.summer1
+{  
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 4px;
+}
+.summer2
+{  
+    margin-top: 4%;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 4px;
+}
+.upperDiv2
+{
+    width: 100%;
+    height: 520px;
+    
+}
+.summer3
+{
+    padding-left: 2%;   
+    margin-bottom: 4%;
+}
+.summer3 > img
+{
+    border-radius: 4px;
+}
+.card-body
+{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 4px;
+}
+.summer4
+{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 4px;
+    margin-bottom: 4%;
+}
+/* End of summer resorts */
+#gallery
+{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+h3
+{
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.row
+{
+    display: grid;
+    grid-template-columns: 32.33% 32.33% 32.33%;
+    grid-template-rows: auto auto auto;
+    row-gap: 1.5%;
+    column-gap: 1.5%;
+}
+.Gallery
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    opacity: 0.5;
+    transition: transform .3s;
+}
+.Gallery:hover
+{
+    opacity: 1;
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+}
+.zoom
+{
+    width: 100%;
+    height: 230px;
+}
+/* End of Gallery */
+.sectionmargin
+{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.imgsec2
+{
+    width: 200px;
+    background-image: url(../img/Camping/1020535.png);
+    filter: grayscale(100%);
+}
+.imgsec2:hover
+{
+    filter: grayscale(0%);
+    transition-duration: 0.55s;
+    transition-property: all;
+}
+.paragraph
+{
+    margin: 0 20%;
+    margin-top: 30px;
+    font-style: italic;
+    word-spacing: 2px;
+    font-size: 16px;
+}
+.myFont2
+{
+    font-family: 'ALK Rex Bold';
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+}
+.cover
+{
+    background-image: url(../img/Camping/2565736.jpg);
+    width: 100%;
+    min-height: 450px;
+    margin-top: 50px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fotext
+{
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-style: italic;
+    font-size: 28px;
+    margin: 30px 20%;
+}
+.fotext > h3
+{
+    margin-bottom: 130px;
+}
+.moremain
+{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -80px;
+    background-color: rgba(36, 68, 36, 0.7);
+    padding: 5% 0;
+    border-radius: 20px;
+    box-shadow: -15px -15px 20px grey;
+    border: 2px;
+    margin-bottom: 80px;  
+    word-spacing: 3px;
+}
+.snow
+{
+    background: url(../img/snowing.gif);
+}
+.container
+{
+    width: 100%;
+    padding: 0 3%;
+}
+.blackBackground
+{
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-style: italic;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px black;
+    margin-bottom: 40px;
+    width: 40%;
+}
+.box
+{
+    max-width: 450px;
+    margin: 10px auto;
+}
+.box img
+{
+    max-width: 200px;
+    height: 200px;
+    display: block;
+    object-fit: cover;
+    padding: 5px;
+    margin-top: 35px;
+}
+.heading
+{
+    width: 100%;
+    padding: 0 5px;
+    padding-left: 0px;
+    min-width: 300px;
+}
+.text
+{
+    height: 100%;
+    margin-top: 50px;
+}
+.heading > p
+{
+    padding: 40px 0;
+    font-size: 15px;
+}
+.heading > h4
+{
+    font-size: 18px;
+    margin-top: 5%;
+}
+.imageS
+{
+    max-width: 250px;
+    height: 250px;
+}
+@media (min-width: 700px)
+{
+    .container
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .box
+    {
+        max-width: 700px;
+    }
+    .box img
+    {
+        float: left;
+    }
+    .box .heading,
+    .box .text
+    {
+        float: right;
+        width: 50%;
+    }
+}
+/* End of camping  */
+.contact
+{
+    margin-top: 150px;
+}
+.contact-section
+{
+   background: url(../img/aniket-deole-M6XC789HLe8-unsplash.jpg) no-repeat center;
+   background-color: rgba(0, 0, 0, 0.5px);
+   background-size: cover;
+   padding: 40px 0;
+}
+.contact-section h2
+{
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.6;
+    font-style: italic;
+    font-size: 28px;
+}
+.contact-section h2::after
+{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: rgb(16, 17, 16);
+    left: 50%;
+    transform: translateX(-50%);
+    animation: animate 13s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        width: 0;
+    }
+    50%
+    {
+        width: 600px;
+        background-color: rgb(11, 71, 30);
+    }
+    100%
+    {
+        width: 0;
+    }
+}
+.contact-form
+{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text
+{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+}
+.contact-form-text:hover
+{
+    box-shadow: 0 0 10px 4px #2a3f53;
+}
+textarea.contact-form-text
+{
+    resize: none;
+    height: 120px;
+}
+.contact-form-btn
+{
+    float: right;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact-form-btn:hover
+{
+    background: #1b813d;   
+}
+/* End of Contact */
+.footer 
+{
+    background-color: rgba(6, 43, 12, 0.7);
+    padding: 15px;
+}
+.newfotext4
+{
+    font-family: 'Dancing Script';
+    font-style: italic;
+    font-size: 17px;
+    text-align: center;
+}
+.newfotext4 > h2
+{
+    font-size: 25px;
+    font-style: italic;
+}
+.newfotext4 > p
+{
+    margin: 5px 0px 7px 0px;
+    word-spacing: 3px;
+}
+.wrapper .button
+{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 0 5px;
+  overflow: hidden;
+  background: rgba(84, 104, 85, 0.7);
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+  margin-right: 50px;
+}
+.wrapper .button:hover{
+  width: 200px;
+  background: rgba(84, 104, 85, 0.7);
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: #E1306C;
+}
+.wrapper .button:nth-child(4):hover .icon{
+  background: #333;
+}
+.wrapper .button:nth-child(5):hover .icon{
+  background: #ff0000;
+}
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper .button:nth-child(2) span{
+  color: #1DA1F2;
+}
+.wrapper .button:nth-child(3) span{
+  color: #E1306C;
+}
+.wrapper .button:nth-child(4) span{
+  color: #333;
+}
+.wrapper .button:nth-child(5) span{
+  color: #ff0000;
+}
+/* End of footer */
+/* RESPONSIVE WEB*/
+@media screen and (max-width: 1500px)
+{
+    .mainDiv
+    {
+        height: 1050px;
+    }
+    .container
+    {
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 1%;
+    }
+    .blackBackground {
+        width: 100%;
+    }
+    .box .heading, .box .text {
+        width: 65%;
+    }
+}
+@media screen and (max-width: 1150px)
+{
+    .carousel-caption
+    {
+        bottom: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.25rem;
+        font-size: 15px;
+    }
+    .mainDiv
+    {
+        height: 970px;
+    }
+    .card
+    {
+        width: 100%;
+        height: 200px;
+    }
+    .card-text
+    {
+        font-size: 14px;
+    }
+    .card2
+    {
+        height: 250px;
+    }
+    nav ul li a
+    {
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 955px)
+{
+    nav ul li a
+    {
+        font-size: 10px;
+    }
+    .logo2
+    {
+        width: 40px;
+    }
+    .mainDiv
+    {
+        height: 950px;
+    }
+    .card-text
+    {
+        font-size: 13.5px;
+    }
+    .card
+    {
+        width: 100%;
+        height: 170px;
+    }
+    .card2
+    {
+        height: 240px;
+    }
+    .card-text2
+    {
+        font-size: 15.5px;
+    }
+    #gallery
+    {
+        margin-top: 50px;
+        width: 75%;
+
+    }
+    .imageSlider
+    {
+        width: 100%;
+        height: 390px;
+    }
+    .imgsec
+    {
+        width: 150px;
+    }
+    .row
+    {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        row-gap: 0.5%;
+    }
+}
+@media screen and (max-width: 830px)
+{
+    #myLinks
+    {
+        display: block;
+    }
+    .menubar
+    {
+        display: none;
+    }
+    .navigationN
+    {
+        display: none;
+    }
+    .slideshow-container
+    {
+        display: none;
+    }
+    .js
+    {
+        display: none;
+    }
+    .hidendiv
+    {
+        display: block;
+        width: 100%;
+        height: 700px;
+        margin-top: -16px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 60% 40%;
+        text-align: center;
+    }
+    .hidendiv1 > h2, .hidendiv2 > h2, .hidendiv3 > h2
+    {
+        color: white;
+       font-style: italic;
+       font-size: 21px;
+    }
+    .hidendiv1 > h2
+    {
+        margin-top: 60%;
+    }
+    .hidendiv2 > h2
+    {
+        margin-top: 58%;
+    }
+    .hidendiv3 > h2
+    {
+        margin-top: 1%;
+        font-size: 23px;
+    }
+    .hidendiv1
+    {
+        background: url(../img/pexels-ricardo-esquivel-1586298.jpg) center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        transition: transform .5s, filter .01s ease-in-out;
+        filter: grayscale(50%);
+    }
+    .hidendiv1:hover
+    {
+        filter: grayscale(0);
+        transform: scale(1.08);
+    }     
+    .hidendiv2
+    {
+        background: url(../img/pexels-pixabay-462030\ \(1\).jpg) center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        transition: transform .5s, filter .01s ease-in-out;
+        filter: grayscale(50%);
+    }
+    .hidendiv2:hover
+    {
+        filter: grayscale(0);
+        transform: scale(1.08);
+    }
+    .hidendiv3
+    {
+        grid-column: 1 / 3;
+        background: url(../img/pexels-cottonbro-5994742.jpg) center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        transition: transform .5s, filter .01s ease-in-out;
+        filter: grayscale(50%);
+    }
+    .hidendiv3:hover
+    {
+        filter: grayscale(0);
+        transform: scale(1.08);
+    }
+    .button1, .button2, .button3
+    {
+        background-color: #000000;
+        color: white; 
+        border: 2px solid #000000;
+        border-radius: 6px;
+    }     
+    .button1:hover
+    {
+        border: 2px solid #35bbe7;
+        background-color: #35bbe7;
+        color: white;
+        cursor: pointer;
+        transition: 0.8s;
+    }
+    .button2:hover
+    {
+        border: 2px solid #e2a623;
+        background-color: #e2a623;
+        color: white;
+        cursor: pointer;
+        transition: 0.8s;
+    }
+    .button3:hover
+    {
+        border: 2px solid #295c19;
+        background-color: #295c19;
+        color: white;
+        cursor: pointer;
+        transition: 0.8s;
+    }
+    button > a
+    {
+        color: white;
+    }
+    nav
+    {
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav .mainMenu
+    {
+        display: flex;
+        list-style: none;
+    }
+    nav .mainMenu li a
+    {
+        display: inline-block;
+        padding: 1px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 20px;
+    }
+    nav .openMenu
+    {
+        font-size: 2rem;
+        margin: 20px;
+        display: none;
+        cursor: pointer;
+        float: right;
+    }
+    nav .mainMenu .closeMenu , .icons i
+    {
+        font-size: 2rem;
+        display: none;
+        cursor: pointer;
+    }
+    nav .mainMenu
+    {
+        height: 650px;
+        width: 100%;
+        position: fixed;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0,0,0,0.8);
+        transition: top 1s ease;
+        display: none;
+    }
+    nav .mainMenu .closeMenu
+    {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    nav .openMenu
+    {
+        display: block;
+    }
+    .secondNav
+    {
+        display: block;
+    }
+    nav ul li a:hover
+    {
+        color: #108138;
+        box-shadow: none;
+    }
+}
+@media screen and (max-width: 800px)
+{        
+    #winterResorts
+    {
+        width: 80%;
+        height: 2800px;
+    }
+    .mainDiv
+    {
+        box-shadow: none;
+    }
+    .summerResort
+    {
+        display: block;
+    }
+    #gallery
+    {
+        margin-bottom: 200px;
+        margin-top: 800px;
+        width: 80%;
+    }   
+    .zoom
+    {
+        height: 210px;
+    }
+    .Gallery:hover
+    {
+        opacity: 1;
+        transform: scale(1.08,1.08);
+        cursor: pointer;
+    }
+    .mainDiv
+    {
+        height: 850px;
+        grid-template-columns: auto;
+    }
+    .card-text
+    {
+        padding: 0px 6px 9px 6px;
+        text-align: center;
+        margin-top: 7px;
+        font-size: 15px;
+    }
+    .card
+    {       
+        width: 100%;
+        height: 250px;     
+    }  
+    .wrapper .button:hover
+    {
+        width: 60px;
+    }
+    .newfotext4 > h2
+    {
+        font-size: 21px;
+    }
+    .newfotext4 > p
+    {
+        font-size: 15px;
+    }
+    .box .heading, .box .text {
+        width: 100%;
+    }
+    .heading > p {
+        font-size: 12px;
+        padding: 10px 0;
+    }
+    .box img {
+        display: inline-block;
+        margin-top: 5px;
+    }
+    .box img {
+        width: 110px;
+        height: 110px;
+    }
+    .container {
+        padding: 0 8%;
+    }
+    .box .heading, .box .text {
+        padding: 0 5%;
+    }
+    .box img {
+        float: none;
+    }
+}
+@media screen and (max-width: 650px)
+{
+    .logo2
+    {
+        width: 35px;
+        margin-left: 10px;
+    }
+    nav
+    {
+        height: 67px;
+    }
+    nav ul li
+    {
+        margin: auto 0 1px;
+    }
+    .menubar
+    {
+        margin-top: -4px;
+    }
+    .logo
+    {
+        margin: 13px 0px 15px 5px;
+    }
+    .carousel-caption
+    {
+        font-size: 11.5px;
+    }
+    .card-text
+    {
+        font-size: 13px;
+    }
+    .card
+    {       
+        width: 100%;
+        height: 170px;     
+        border-radius: 0;   
+    }
+    #winterResorts
+    {
+        height: 2500px;
+    }   
+    .fotext
+    {
+        font-size: 20px;
+        margin: 20px 10%;
+    }
+    .fotext > h3
+    {
+        font-size: 20px;
+    }
+    #gallery
+    {
+        margin-top: 850px;
+    }
+    #summerResorts
+    {
+        width: 80%;
+    }   
+    .wrapper
+    {
+        padding-left: 5%;
+    }
+}
+/* Login and registration */
+.background
+{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../img/pexels-francesco-ungaro-1525041.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cotr
+{
+    width: 400px;
+    min-height: 400px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 40px 30px;
+}
+.cotr .login-text
+{
+    color: #111;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+.cotr .login-social
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    margin-bottom: 25px;
+}
+.cotr .login-social a
+{
+    padding: 12px;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    color: #FFF;
+    transition: .3s;
+}
+.cotr .login-social a i
+{
+    margin-right: 5px;
+}
+.cotr .login-social a.facebook
+{
+    background: #4267B2;
+}
+.cotr .login-social a.twitter
+{
+    background: #1DA1F2;
+}
+.cotr .login-social a.google-plus
+{
+    background: #db4a39;
+}
+.cotr .login-social a.linkedin
+{
+    background: #0e76a8;
+}
+.cotr .login-social a.facebook:hover
+{
+    background: #3d5fa3;
+}
+.cotr .login-social a.twitter:hover
+{
+    background: #1991db;
+}
+.cotr .login-social a.google-plus:hover
+{
+    background: #ca4334;
+}
+.cotr .login-social a.linkedin:hover
+{
+    background: #0b5c81;
+}
+.cotr .login-email .input-group
+{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+.cotr .login-email .input-group input
+{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+.cotr .login-email .input-group input:focus, .cotr .login-email .input-group input:valid
+{
+    border-color: #a29bfe;
+}
+.cotr .login-email .input-group .btn
+{
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #a29bfe;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+}
+.cotr .login-email .input-group .btn:hover
+{
+    transform: translateY(-5px);
+    background: #6c5ce7;
+}
+.login-register-text
+{
+    text-align: center;
+    color: #111;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.login-register-text a
+{
+    text-decoration: none;
+    color: #6c5ce7;
+}
+@media (max-width: 430px)
+{
+    .cotr
+    {
+        width: 300px;
+    }
+    .cotr .login-social
+    {
+        display: block;
+    }
+    .cotr .login-social a
+    {
+        display: block;
+    }
+}
