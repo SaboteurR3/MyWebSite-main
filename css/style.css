@@ -1277,7 +1277,34 @@ textarea.contact-form-text
     {
         padding-left: 5%;
     }
+    @keyframes animate
+    {
+        0%
+        {
+            width: 0;
+        }
+        50%
+        {
+            width: 340px;
+            background-color: rgb(11, 71, 30);
+        }
+        100%
+        {
+            width: 0;
+        }
+    }
 }
+/* @media screen and (max-width: 370px)
+{
+    #summerRessorts
+    {
+        margin-top: 200px;
+    }
+    #Gallery
+    {
+        margin-top: 600px;
+    }
+} */
 /* Login and registration */
 .background
 {
