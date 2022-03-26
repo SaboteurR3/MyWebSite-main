@@ -1294,17 +1294,27 @@ textarea.contact-form-text
         }
     }
 }
-/* @media screen and (max-width: 370px)
+@media screen and (max-width: 430px)
 {
-    #summerRessorts
-    {
-        margin-top: 200px;
+    #winterResorts {
+        margin-bottom: 180px;
     }
-    #Gallery
-    {
-        margin-top: 600px;
+    .gallerydiv {
+        margin-top: 950px;
     }
-} */
+}
+@media screen and (max-width: 350px)
+{
+    #winterResorts {
+        margin-bottom: 200px;
+    }
+    .summerResort {
+        margin-bottom: 200px;
+    }
+    .gallerydiv {
+        margin-top: 1000px;
+    }
+} 
 /* Login and registration */
 .background
 {
